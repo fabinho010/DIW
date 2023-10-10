@@ -5,6 +5,35 @@
     
 }
 
+
+header {
+    width: 1000px;
+    height: 120px;
+    background-color: #212F3C;
+    position: relative;
+    align-items: center;
+}
+
+header img {
+    width: 150px;   
+    height:120px;
+}
+header h1{
+    color: white;
+    font-size: 20px;
+}
+header p {
+    color: white;
+    font-size: x-small;
+    right: 540px;
+}
+
+
+
+
+
+
+
 footer{
     background-color: #212F3C;
     height: 70px;
