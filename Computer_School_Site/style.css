@@ -1,0 +1,22 @@
+*{
+    width: 1000px; /*The layout of 1000px.*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px; /*For all the website*/
+    
+}
+
+footer{
+    background-color: #212F3C;
+    height: 70px;
+    position: relative;
+}
+#TOP {
+    color: white;
+    top: 0;
+    left: 0;
+}
+#BOT{
+    color: white;
+    bottom: 0;
+    right: -20px;
+}
