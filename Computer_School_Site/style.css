@@ -10,20 +10,27 @@ header {
     width: 1000px;
     height: 120px;
     background-color: #212F3C;
-    display: flex;
-    align-items: center;
+    position: relative;
 }
 
 header img {
-    width: 150px;   
+    position: absolute;
+    width: 200px;   
     height:120px;
 }
-#titulos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;     
+
+#titulo {
+    position: absolute;
+    top: 10%;
+    left: 500px;
 }
+
+#subtitulo  {
+    position: absolute;
+    top: 45%;
+    left: 540px;
+}
+
 
 header h1{
     color: white;
@@ -35,12 +42,34 @@ header p {
     right: 540px;
 }
 
+
+
+
+.menu {
+    position: relative;
+    float: left;
+    top: 0;
+    left: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .menu ul li {
     display: inline;
-    display: block;
-    padding: 8px;
+    height: 50px;
+    padding: 50px;
     background-color: #BB8FCE;
 
+}
+
+.menu ul li a {
+    color: white;
+    text-align: center;
 }
 
 
