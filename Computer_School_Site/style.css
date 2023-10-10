@@ -10,7 +10,7 @@ header {
     width: 1000px;
     height: 120px;
     background-color: #212F3C;
-    position: relative;
+    display: flex;
     align-items: center;
 }
 
@@ -18,6 +18,13 @@ header img {
     width: 150px;   
     height:120px;
 }
+#titulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;     
+}
+
 header h1{
     color: white;
     font-size: 20px;
@@ -28,7 +35,13 @@ header p {
     right: 540px;
 }
 
+.menu ul li {
+    display: inline;
+    display: block;
+    padding: 8px;
+    background-color: #BB8FCE;
 
+}
 
 
 
