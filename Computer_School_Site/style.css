@@ -73,10 +73,15 @@ header p {
 
 
 
+
+
 #pattern {
     background-image: url("/Computer_School_Site/imatges/pattern.jpg");
     height: 100px; 
 }
+
+
+
 
 #centralIMG {
     height: 300px;
@@ -86,6 +91,20 @@ header p {
 #centralIMG img{
     height: 390px;
 }
+
+
+
+
+.grades {
+    background-color:#D0D3D4 ;
+    height: 250px;
+}
+
+.grades #tittable h1{
+    text-decoration: underline;
+
+}
+
 
 
 footer{
