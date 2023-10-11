@@ -78,6 +78,14 @@ header p {
     height: 100px; 
 }
 
+#centralIMG {
+    height: 300px;
+    overflow: hidden;
+}
+
+#centralIMG img{
+    height: 390px;
+}
 
 
 footer{
