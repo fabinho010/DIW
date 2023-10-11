@@ -73,6 +73,11 @@ header p {
 
 
 
+#pattern {
+    background-image: url("/Computer_School_Site/imatges/pattern.jpg");
+    height: 100px; 
+}
+
 
 
 footer{
