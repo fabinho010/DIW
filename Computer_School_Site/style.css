@@ -95,15 +95,56 @@ header p {
 
 
 
+
 .grades {
+    position: relative;
     background-color:#D0D3D4 ;
     height: 250px;
 }
 
 .grades #tittable h1{
+    position: absolute;
+    top: 25px;
+    left: 450px;
+    font-size: 15px;
     text-decoration: underline;
+    font-weight: bolder;
 
 }
+
+.grades table{
+    position: absolute;
+    border-collapse: collapse;
+    top: 75px;
+    left: 250px;
+    width: 500px;
+    border-top: 1px solid black;
+    border-bottom: 2.5px solid #B3B6B7 ;
+    border-left: 2.5px solid #B3B6B7;
+    border-right: 2.5px solid #B3B6B7;
+
+}
+
+.grades th {
+    background-color: #7D3C98   ;
+    border-bottom: 3px solid black;
+    height: 28px;
+    font-size:medium;
+}
+
+.grades td {
+    text-align: center;
+    height: 25px;
+    font-size:smaller;
+}
+.grades tr:nth-child(even){
+    background-color: #797D7F  ;
+}
+
+.grades tr:nth-child(odd){
+    background-color: #D7DBDD  ;
+}
+
 
 
 
