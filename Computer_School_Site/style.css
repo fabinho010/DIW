@@ -147,19 +147,53 @@ header p {
 
 
 
+.fAHPJ {
+    height: 300px;
+    position: relative;
+    text-align: center;
+    border-collapse: collapse;
+    display: flex;
+    overflow: hidden;
+}
+
+.fAHPJ div{
+    width: 248px;
+    border-left: 1px solid gray ;
+    border-right: 1px solid gray ;
+}
+.fAHPJ img {
+    height: 250px;
+    width: 235px;
+    padding: 10px;
+    filter:opacity(0.5);
+}
+
+.fAHPJ h1 {
+    width: 260px;
+    height: 5px;
+    position: absolute;
+    top: 265px;
+    font-size: medium;
+}
+
+
+
 
 footer{
     background-color: #212F3C;
-    height: 70px;
+    height: 100px;
     position: relative;
 }
 #TOP {
+    position: absolute;
     color: white;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 1%;
 }
 #BOT{
+    position: absolute;
     color: white;
-    bottom: 0;
-    right: -20px;
+    bottom: 0%;
+    left: 81%;
+    font-size: smaller;
 }
