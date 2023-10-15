@@ -73,7 +73,7 @@ header p {
 
 .menu ul li a {
    color: white;
-   font-size: medium;
+   font-size: small;
    text-decoration: none;
    text-align: center;
    flex: 1;
