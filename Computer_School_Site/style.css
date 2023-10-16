@@ -11,7 +11,7 @@ body article{
 }
 
 
-/* Header*/
+/* Header */
 
 header {
     width: 1000px;
@@ -86,7 +86,7 @@ header p {
 /* Pattern*/
 
 #pattern {
-    background-image: url("/Computer_School_Site/imatges/pattern.jpg");
+    background-image: url("/imatges/pattern.jpg");
     height: 100px; 
 }
 
