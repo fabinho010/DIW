@@ -16,6 +16,7 @@ header {
   height: 120px;
   background-color: #1a0644;
   position: relative;
+  border-bottom: 2.5px solid black;
 }
 
 header img {
@@ -68,7 +69,8 @@ header p {
 
 .menu ul li a {
   color: white;
-  font-size: small;
+  font-size: 16px;
+  font-weight: bold;
   text-decoration: none;
   text-align: center;
   flex: 1;
