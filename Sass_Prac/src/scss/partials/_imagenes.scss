@@ -1,0 +1,34 @@
+
+img {
+    @include proValue(max-width,300px);
+    @include proValue(border-radius,45%);
+    
+    &.grayscale{
+        @include animacion-imagen(grayscale,0%,100%);
+    }
+
+    &.blur{
+        @include animacion-imagen(blur,0px,5px);
+    }
+
+    &.sepia {
+        @include animacion-imagen(sepia,0%,100%);
+    }
+
+    &.hue-rotate{
+        @include animacion-imagen(hue-rotate,0deg,150deg);
+    }
+
+    &.invert{
+        @include animacion-imagen(invert,0,0.8);
+    }
+
+    &.brightness{
+        @include animacion-imagen(brightness,1,0.5);
+    }
+
+    &.contrast {
+        @include animacion-imagen(contrast,0,2);
+    }
+
+}

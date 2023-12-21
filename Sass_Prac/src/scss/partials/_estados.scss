@@ -1,0 +1,21 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.success {
+    @include proValue(color,$color-success);
+    @include proValue(background-color,darken($color-success, $fon-obscur));
+    
+}
+
+.warning {
+    @include proValue(color,$color-warning);
+    @include proValue(background-color,darken($color-warning, $fon-obscur));
+    
+}
+
+.error {
+    @include proValue(color,$color-error);
+    @include proValue(background-color,darken($color-error, $fon-obscur));
+    
+}
+

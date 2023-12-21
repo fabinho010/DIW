@@ -1,0 +1,42 @@
+
+//Caracteristicas de la etiqueta p
+p {
+    @include proValue(margin,0);
+    @include proValue(padding,0);
+    @include proValue(text-align,justify);
+    @include proValue(color,$color-normal);
+    @include proValue(background-color, lighten($color-normal, $fon-clar));
+    
+}
+
+//Span
+span {
+    @include proValue(color,$color-normal);
+    @include proValue(background-color, lighten($color-normal, $fon-clar));
+}
+
+//Hxs
+
+@for $i from 1 through 6 {
+    h#{$i}{
+        @include proValue(margin,0);
+        @include proValue(padding,0);
+        @include proValue(font-size,$numero_fuente);
+        @include proValue(color,$color-normal);
+        @include proValue(background-color, lighten($color-normal, $fon-clar));
+    }
+    $numero_fuente:$numero_fuente - 0.2;
+} 
+
+//Table
+
+table {
+    @include proValue(width,100%);
+    @include proValue(border-collapse,collapse);
+}
+
+td ,th {
+    @include proValue(border, solid 1px black);
+}
+
+

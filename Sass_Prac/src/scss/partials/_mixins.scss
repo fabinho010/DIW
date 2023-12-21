@@ -1,0 +1,21 @@
+@function generatePercentage($index) {
+  @return round(($index*10*255 ) / 100);
+}
+
+@mixin proValue($property, $value) {
+  #{$property}: $value;
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+}
+
+ @mixin animacion-imagen($property-name, $from, $to) {
+
+      @keyframes #{$property-name}{
+      0% { filter: #{$property-name}($from); }
+      50% { filter: #{$property-name}(#{$to}); }
+      100% { filter: #{$property-name}($from); }
+  }
+
+  animation: #{$property-name} infinite 3s ease;
+
+} 

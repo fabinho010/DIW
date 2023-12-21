@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Computer School Site</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="manifest" href="/manifest.json" />
   </head>
   <body>
+    <link rel="manifest" href="/wpa/manifest.json" />
     <header>
       <div>
         <img src="\imatges\logo.png" />
@@ -87,9 +87,24 @@
       <p id="TOP">@cifpfbmoll.eu</p>
       <p id="BOT">DESIGN OF WEB INTERFACES</p>
     </footer>
+    <!-- In index.html, for example: -->
+    <script>
+      // Don't register the service worker
+      // until the page has fully loaded
+      window.addEventListener("load", () => {
+        // Is service worker available?
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker
+            .register("./sw.js")
+            .then(() => {
+              console.log("Service worker registered!");
+            })
+            .catch((error) => {
+              console.warn("Error registering service worker:");
+              console.warn(error);
+            });
+        }
+      });
+    </script>
   </body>
-  <xml>
-    <shot_name> Nombre</shot_name>
-    <name id="300"> Nombre </name>
-  </xml>
 </html>
