@@ -1,0 +1,69 @@
+// Top App Bar
+@use "@material/top-app-bar/mdc-top-app-bar";
+
+//Tab bar y Tap scroll
+
+@use "@material/tab-bar/mdc-tab-bar";
+@use "@material/tab-scroller/mdc-tab-scroller";
+@use "@material/tab-indicator/mdc-tab-indicator";
+@use "@material/tab/mdc-tab";
+
+// Layput grid
+@use "@material/layout-grid/mdc-layout-grid";
+
+//Buttons
+@use "@material/button/styles";
+
+//Cards
+
+@use "@material/card";
+
+//Typography
+@use "@material/typography/mdc-typography";
+
+
+@include card.core-styles;
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content {
+    position: relative;
+    margin-top: 115px;
+    background-image: url("/src/img/background.png");
+}
+
+.search {
+
+    float: right;
+}
+
+.content form h1 {
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+.mdc-card {
+    background-color: #FBEEE6;
+}
+
+
+$mdc-typography-styles-headline3: (
+  font-family: unquote("Rubik Pixels"),
+  font-size: 48
+);
+
+$mdc-typography-styles-headline6: (
+  font-family: unquote("Borel"),
+  font-size: 20
+);
+
+$mdc-typography-styles-subtitle2: (
+  font-family: unquote("Shrikhand"),
+  font-size: 14
+);

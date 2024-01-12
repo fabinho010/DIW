@@ -1,0 +1,43 @@
+{
+  "name": "webpack-kittens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch",
+    "start": "webpack serve --mode development --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@material/button": "^14.0.0",
+    "@material/card": "^14.0.0",
+    "@material/grid-list": "^4.0.0",
+    "@material/icon-button": "^14.0.0",
+    "@material/image-list": "^14.0.0",
+    "@material/layout-grid": "^14.0.0",
+    "@material/ripple": "^14.0.0",
+    "@material/tab-bar": "^14.0.0",
+    "@material/tab-scroller": "^14.0.0",
+    "@material/top-app-bar": "^14.0.0",
+    "@material/typography": "^14.0.0",
+    "lodash": "^4.17.21"
+  }
+}
